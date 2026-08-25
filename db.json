@@ -1,0 +1,457 @@
+{
+  "witches":[
+    {
+      "id": "1",
+      "name": "Seraphine Vale",
+      "title": "The Crimson Daughter",
+      "type": "Blood Witch",
+      "element": "Blood",
+      "secondaryElement": "Shadow",
+      "specialty": "Blood Magic",
+      "powers": [
+        "Blood Binding",
+        "Life Drain",
+        "Curse Weaving",
+        "Blood Tracking"
+      ],
+      "rank": "High Witch",
+      "coven": "The Crimson Order",
+      "powerLevel": 92,
+      "dangerLevel": 5,
+      "familiar": "Black Wolf",
+      "origin": "The Crimson Vale",
+      "status": "Active",
+      "image": "/images/witches/seraphine-vale.webp",
+      "description": "Seraphine Vale is one of the most powerful blood witches recorded in Hexarium. Born beneath a crimson eclipse, she learned to manipulate the invisible bonds between blood, memory and magic. Her spells are extraordinarily powerful, but every ritual demands a price.",
+      "spellIds": [
+        "1",
+        "4",
+        "7"
+      ],
+      "celestialAffinity": [
+        "Full Moon",
+        "Waning Gibbous"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Isolde Briar",
+      "title": "Keeper of the Wild Garden",
+      "type": "Plant Witch",
+      "element": "Earth",
+      "secondaryElement": "Water",
+      "specialty": "Herbalism and Poison Magic",
+      "powers": [
+        "Plant Manipulation",
+        "Healing",
+        "Poison Brewing",
+        "Root Binding"
+      ],
+      "rank": "Green Witch",
+      "coven": "The Verdant Circle",
+      "powerLevel": 76,
+      "dangerLevel": 2,
+      "familiar": "Moss Fox",
+      "origin": "Briarwood Forest",
+      "status": "Active",
+      "image": "/images/witches/isolde-briar.webp",
+      "description": "Isolde Briar lives within the ancient gardens of Briarwood, where plants are said to grow according to her moods. She is renowned for her healing remedies, rare botanical knowledge and poisons that leave almost no trace.",
+      "spellIds": [
+        "2",
+        "5",
+        "8"
+      ],
+      "celestialAffinity": [
+        "Waxing Crescent",
+        "First Quarter"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Amara Rose",
+      "title": "The Velvet Enchantress",
+      "type": "Love Witch",
+      "element": "Aether",
+      "secondaryElement": "Spirit",
+      "specialty": "Emotional Enchantment",
+      "powers": [
+        "Emotion Manipulation",
+        "Charm Casting",
+        "Aura Reading",
+        "Memory Enchantment"
+      ],
+      "rank": "Enchantress",
+      "coven": "The Rose Court",
+      "powerLevel": 81,
+      "dangerLevel": 3,
+      "familiar": "White Dove",
+      "origin": "The Gardens of Elaria",
+      "status": "Active",
+      "image": "/images/witches/amara-rose.webp",
+      "description": "Amara Rose is an enchantress whose magic is woven through emotion, memory and desire. Although her spells are rarely violent, the ability to influence another person's feelings has made her one of the most carefully observed witches in the archive.",
+      "spellIds": [
+        "3",
+        "6",
+        "9"
+      ],
+      "celestialAffinity": [
+        "Waxing Crescent",
+        "Waxing Gibbous"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Selene Mourne",
+      "title": "Keeper of the Crescent",
+      "type": "Moon Witch",
+      "element": "Spirit",
+      "secondaryElement": "Aether",
+      "specialty": "Lunar Divination",
+      "powers": [
+        "Dreamwalking",
+        "Astral Sight",
+        "Moon Binding",
+        "Prophetic Visions"
+      ],
+      "rank": "High Priestess",
+      "coven": "The Lunar Order",
+      "powerLevel": 95,
+      "dangerLevel": 3,
+      "familiar": "Silver Owl",
+      "origin": "The Vale of Lune",
+      "status": "Active",
+      "image": "/images/witches/selene-mourne.webp",
+      "description": "Selene Mourne serves as High Priestess of the Lunar Order. Her magic changes with the phases of the moon, reaching its strongest state beneath a full moon. She is known throughout Hexarium for visions that have predicted events decades before they occurred.",
+      "spellIds": [
+        "4",
+        "7",
+        "10"
+      ],
+      "celestialAffinity": [
+        "Waxing Gibbous",
+        "Full Moon"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Lyra Nocturne",
+      "title": "The Weaver of Dreams",
+      "type": "Dream Witch",
+      "element": "Aether",
+      "secondaryElement": "Shadow",
+      "specialty": "Dream Magic",
+      "powers": [
+        "Dreamwalking",
+        "Illusion Casting",
+        "Memory Reading",
+        "Sleep Enchantment"
+      ],
+      "rank": "Oracle",
+      "coven": "The Veiled Circle",
+      "powerLevel": 87,
+      "dangerLevel": 4,
+      "familiar": "Luna Moth",
+      "origin": "The Nocturne Isles",
+      "status": "Missing",
+      "image": "/images/witches/lyra-nocturne.webp",
+      "description": "Lyra Nocturne learned to cross the boundary between dreams and waking life at an unusually young age. She can enter another person's dreams, uncover hidden memories and construct illusions indistinguishable from reality. Her whereabouts are currently unknown.",
+      "spellIds": [
+        "6",
+        "7",
+        "10"
+      ],
+      "celestialAffinity": [
+        "Waxing Gibbous",
+        "Full Moon",
+        "Waning Crescent"
+      ]
+    }
+  ],
+  "spells": [
+    {
+      "id": "1",
+      "name": "Whisper of the Moon",
+      "category": "Divination",
+      "element": "Spirit",
+      "difficulty": 4,
+      "ingredients": [
+        "Moonflower",
+        "Silver Dust",
+        "Raven Feather"
+      ],
+      "chant": "Luna, veil of silver light, reveal what sleeps beyond my sight.",
+      "description": "Reveals fragmented visions beneath strong moonlight, allowing the caster to glimpse possible paths hidden within the near future."
+    },
+    {
+      "id": "2",
+      "name": "Root Bind",
+      "category": "Binding",
+      "element": "Earth",
+      "difficulty": 2,
+      "ingredients": [
+        "Ivy Vine",
+        "Oak Bark",
+        "Black Soil"
+      ],
+      "chant": "Root and thorn beneath the ground, rise and hold what I have bound.",
+      "description": "Calls living roots from the earth to restrain a target until the spell is released or the roots are broken."
+    },
+    {
+      "id": "3",
+      "name": "Crimson Oath",
+      "category": "Blood Magic",
+      "element": "Blood",
+      "difficulty": 5,
+      "ingredients": [
+        "Blood Rose",
+        "Red Thread",
+        "Obsidian Shard"
+      ],
+      "chant": "By crimson thread and willing vein, let spoken vows in power remain.",
+      "description": "Creates a powerful magical bond between those who willingly swear an oath beneath the same sigil."
+    },
+    {
+      "id": "4",
+      "name": "Dreamwalk",
+      "category": "Dream Magic",
+      "element": "Spirit",
+      "difficulty": 4,
+      "ingredients": [
+        "Lavender",
+        "Moonwater",
+        "Blue Lotus"
+      ],
+      "chant": "Through sleeping veil and silent stream, open now the gates of dream.",
+      "description": "Allows the caster to enter the dreamscape of a sleeping person and move through fragments of their subconscious."
+    },
+    {
+      "id": "5",
+      "name": "Veil of Shadows",
+      "category": "Illusion",
+      "element": "Shadow",
+      "difficulty": 3,
+      "ingredients": [
+        "Black Candle Wax",
+        "Nightshade",
+        "Smoky Quartz"
+      ],
+      "chant": "Shadow gather, candle fade, hide my form within the shade.",
+      "description": "Wraps the caster in shifting darkness, making their form difficult to perceive in dimly lit surroundings."
+    },
+    {
+      "id": "6",
+      "name": "Tempest Call",
+      "category": "Elemental",
+      "element": "Air",
+      "difficulty": 5,
+      "ingredients": [
+        "Stormglass",
+        "Falcon Feather",
+        "Rainwater"
+      ],
+      "chant": "Wind awaken, heavens roar, gather storm from distant shore.",
+      "description": "Summons turbulent winds and charged clouds around the caster, building into a localized magical storm."
+    },
+    {
+      "id": "7",
+      "name": "Tidekeeper's Grace",
+      "category": "Protection",
+      "element": "Water",
+      "difficulty": 3,
+      "ingredients": [
+        "Sea Salt",
+        "Pearl Dust",
+        "Blue Kelp"
+      ],
+      "chant": "Tide surround and waters rise, guard my path beneath the skies.",
+      "description": "Forms a protective veil of water around the caster that softens impacts and offers resistance against heat and flame."
+    },
+    {
+      "id": "8",
+      "name": "Astral Passage",
+      "category": "Astral Magic",
+      "element": "Aether",
+      "difficulty": 5,
+      "ingredients": [
+        "Star Anise",
+        "Clear Quartz",
+        "Moonwater"
+      ],
+      "chant": "Body rest and spirit rise, carry me beyond these skies.",
+      "description": "Separates the caster's spirit from their physical body for a limited journey through the astral plane."
+    },
+    {
+      "id": "9",
+      "name": "Roseheart Charm",
+      "category": "Enchantment",
+      "element": "Spirit",
+      "difficulty": 2,
+      "ingredients": [
+        "Rose Petals",
+        "Honey",
+        "Rose Quartz"
+      ],
+      "chant": "Rose and honey, heart made bright, soften words in gentle light.",
+      "description": "Creates a gentle aura of warmth and trust around the caster, encouraging openness without controlling another person's will."
+    },
+    {
+      "id": "10",
+      "name": "Gravewhisper",
+      "category": "Necromancy",
+      "element": "Spirit",
+      "difficulty": 5,
+      "ingredients": [
+        "Grave Soil",
+        "White Candle",
+        "Yew Bark"
+      ],
+      "chant": "Those who linger, those unseen, whisper through the veil between.",
+      "description": "Allows the caster to hear faint echoes left behind by spirits connected to a particular resting place."
+    },
+    {
+      "id": "11",
+      "name": "Ember Ward",
+      "category": "Protection",
+      "element": "Fire",
+      "difficulty": 2,
+      "ingredients": [
+        "Charcoal",
+        "Cinnamon",
+        "Red Jasper"
+      ],
+      "chant": "Ember circle, flame defend, let no wicked power enter in.",
+      "description": "Creates a ring of glowing embers that repels minor hostile magic and burns away weak curses."
+    },
+    {
+      "id": "12",
+      "name": "Bloomwake",
+      "category": "Nature Magic",
+      "element": "Earth",
+      "difficulty": 2,
+      "ingredients": [
+        "Fern Spores",
+        "Spring Water",
+        "Green Aventurine"
+      ],
+      "chant": "Seed awaken, root arise, bloom beneath the open skies.",
+      "description": "Accelerates the growth of nearby plants, causing dormant leaves, vines and flowers to awaken."
+    },
+    {
+      "id": "13",
+      "name": "Mirror of Truth",
+      "category": "Divination",
+      "element": "Aether",
+      "difficulty": 4,
+      "ingredients": [
+        "Silver Mirror",
+        "Clear Quartz",
+        "White Sage"
+      ],
+      "chant": "Silver surface, clear and bright, strip away deceiving sight.",
+      "description": "Reveals magical disguises, concealed enchantments and illusions reflected within a prepared mirror."
+    },
+    {
+      "id": "14",
+      "name": "Frostbound Sigil",
+      "category": "Elemental",
+      "element": "Water",
+      "difficulty": 3,
+      "ingredients": [
+        "Ice Crystal",
+        "Mint Leaves",
+        "Silver Thread"
+      ],
+      "chant": "Winter answer, silence grow, seal this mark in frost and snow.",
+      "description": "Places a freezing sigil upon a surface that releases a burst of magical frost when disturbed."
+    },
+    {
+      "id": "15",
+      "name": "Echo of the Forgotten",
+      "category": "Memory Magic",
+      "element": "Spirit",
+      "difficulty": 4,
+      "ingredients": [
+        "Dried Rosemary",
+        "Amethyst",
+        "Old Parchment"
+      ],
+      "chant": "Memory sleeping, memory gone, return your echo before the dawn.",
+      "description": "Draws forth fragments of memories attached to an object, location or lingering magical presence."
+    },
+    {
+      "id": "16",
+      "name": "Serpent's Remedy",
+      "category": "Healing",
+      "element": "Earth",
+      "difficulty": 3,
+      "ingredients": [
+        "Vipergrass",
+        "Sage",
+        "Moonwater"
+      ],
+      "chant": "Venom drawn and poison flee, leave this flesh and come to me.",
+      "description": "Draws poison and minor magical toxins from the body and transfers them into a prepared herbal vessel."
+    },
+    {
+      "id": "17",
+      "name": "Starlight Beacon",
+      "category": "Celestial Magic",
+      "element": "Aether",
+      "difficulty": 3,
+      "ingredients": [
+        "Starflower",
+        "Gold Dust",
+        "Clear Quartz"
+      ],
+      "chant": "Star above and spark below, light the path that I must know.",
+      "description": "Creates a floating celestial light that guides the caster toward a chosen person, place or magical signature."
+    },
+    {
+      "id": "18",
+      "name": "Blackthorn Hex",
+      "category": "Hex",
+      "element": "Shadow",
+      "difficulty": 4,
+      "ingredients": [
+        "Blackthorn",
+        "Black Salt",
+        "Crow Feather"
+      ],
+      "chant": "Thorn and shadow, twist and turn, let hostile power falter and burn.",
+      "description": "Places a lingering curse upon a target that causes hostile magic they cast to become unstable and difficult to control."
+    },
+    {
+      "id": "19",
+      "name": "Seafoam Passage",
+      "category": "Transformation",
+      "element": "Water",
+      "difficulty": 4,
+      "ingredients": [
+        "Seashell",
+        "Seafoam",
+        "Pearl"
+      ],
+      "chant": "Sea receive me, tide be kind, grant me breath where waters bind.",
+      "description": "Allows the caster to breathe beneath water and move through deep currents with supernatural ease."
+    },
+    {
+      "id": "20",
+      "name": "Crown of Lightning",
+      "category": "Elemental",
+      "element": "Air",
+      "difficulty": 5,
+      "ingredients": [
+        "Stormglass",
+        "Copper Wire",
+        "Fulgurite"
+      ],
+      "chant": "Storm above and spark within, crown me where the skies begin.",
+      "description": "Channels electrical energy around the caster in a luminous crown that can release controlled arcs of lightning."
+    },
+    {
+      "name": "Add your name in the body",
+      "id": "PeTVrclaLn8"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
