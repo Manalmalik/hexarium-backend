@@ -1,5 +1,5 @@
 {
-  "witches":[
+  "witches": [
     {
       "id": "1",
       "name": "Seraphine Vale",
@@ -165,6 +165,64 @@
         "Full Moon",
         "Waning Crescent"
       ]
+    },
+    {
+      "id": "FhOB1qZc5Hk",
+      "name": "Sera Vale",
+      "title": "The Crimson Daughter",
+      "type": "Water Witch",
+      "element": "Blood",
+      "secondaryElement": "Shadow",
+      "specialty": "Blood Magic",
+      "powers": [
+        "Blood Binding",
+        "Life Drain",
+        "Curse Weaving",
+        "Blood Tracking"
+      ],
+      "rank": "High Witch",
+      "coven": "The Crimson Order",
+      "powerLevel": 92,
+      "dangerLevel": 5,
+      "familiar": "Black Wolf",
+      "origin": "The Crimson Vale",
+      "status": "Active",
+      "image": "/images/witches/seraphine-vale.webp",
+      "description": "Seraphine Vale is one of the most powerful blood witches recorded in Hexarium. Born beneath a crimson eclipse, she learned to manipulate the invisible bonds between blood, memory and magic. Her spells are extraordinarily powerful, but every ritual demands a price.",
+      "spellIds": [
+        "1",
+        "4",
+        "7"
+      ],
+      "celestialAffinity": [
+        "Full Moon",
+        "Waning Gibbous"
+      ]
+    },
+    {
+      "name": "Magdelia",
+      "type": "Alchemist",
+      "title": "The Seeker",
+      "element": "",
+      "secondaryElement": "Water",
+      "speciality": "Moon Magic",
+      "powers": [
+        "Shape Shift"
+      ],
+      "rank": "Enchantress",
+      "coven": "None",
+      "dangerlevel": "",
+      "powerLevel": "3",
+      "familiar": "Owl",
+      "status": "Archived",
+      "image": "",
+      "description": "New to the world",
+      "spellIds": "16",
+      "celestialAffinity": "New Moon",
+      "primaryElement": "Fire",
+      "dangerLevel": "Gentle",
+      "celesAff": "N",
+      "id": "4qOEer0fUlg"
     }
   ],
   "spells": [
